@@ -12,5 +12,4 @@ public class FunFactsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fun_facts);
 
     }
-
 }
