@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 public class FunFactsActivity extends AppCompatActivity {
 
+    public static final String TAG = FunFactsActivity.class.getSimpleName();
+
     private FactBook mFactBook = new FactBook();
     private ColorWheel mColorWheel = new ColorWheel();
 
@@ -42,7 +44,7 @@ public class FunFactsActivity extends AppCompatActivity {
         showFactButton.setOnClickListener(listener);
 
         //Toast.makeText(this, "Hell Yeah Toast", Toast.LENGTH_LONG).show();
-        Log.d("FunFactsActivity", "Hello from onCreate()");
+        Log.d(TAG, "Hello from onCreate()");
     }
 
 }
