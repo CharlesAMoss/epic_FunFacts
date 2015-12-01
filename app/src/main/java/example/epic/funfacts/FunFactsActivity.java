@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 
 public class FunFactsActivity extends AppCompatActivity {
@@ -39,6 +39,8 @@ public class FunFactsActivity extends AppCompatActivity {
             }
         };
         showFactButton.setOnClickListener(listener);
+
+        Toast.makeText(this, "Hell Yeah Toast", Toast.LENGTH_LONG).show();
 
     }
 
